@@ -8,13 +8,10 @@ html {
     align-items: baseline;
     margin: auto;
     justify-content: center;
-
-
 }
 
 .tickerWindow {
     min-width: 22%;
-    border: 0.25px;
 }
 
 .tickerWindow img {
@@ -45,3 +42,32 @@ footer {
     text-align: center;
 }
 
+button {
+    border: none;
+}
+
+
+@media only screen and (max-device-width: 500px)
+{
+    .tickerWindow {
+        min-width: 70%;
+        margin-bottom: 40px;
+    }
+    h6 {
+        font-size: 30px;
+        margin: 0;
+    }
+    button {
+        border: none;
+        height: 30px;
+        width: 40px;
+        font-size: 25px;
+        background-color: lightgray;
+    }
+    .tickersQuant {
+        font-size: 15px;
+    }
+    .tickersPrice {
+        margin: 0;
+    }
+}
