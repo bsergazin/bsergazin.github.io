@@ -1,0 +1,47 @@
+html {
+    font-family: Helvetica;
+}
+
+.tickers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin: auto;
+    justify-content: center;
+
+
+}
+
+.tickerWindow {
+    min-width: 22%;
+    border: 0.25px;
+}
+
+.tickerWindow img {
+    margin: auto;
+    display: block;
+    height: 175px;
+    width: auto;
+    object-fit: cover;
+}
+
+.tickersQuant {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 35px;
+}
+
+.tickersPrice {
+    display: flex;
+    justify-content: space-around;
+    height: 35px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+}
+
